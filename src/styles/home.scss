@@ -3,8 +3,9 @@
 .home {
   width: 100%;
   height: 100vh;
-  background-color: $second;
-  border-radius: 0 0 200px 200px;
+  background-color: rgba(228, 205, 242, 0.438);
+
+  border-radius: 0 0 100px 100px;
 
   > main {
     position: absolute;
@@ -20,10 +21,12 @@
     h1 {
       font: 400 6rem $text1;
       color: $first;
+      color: black;
     }
     p {
       font: 900 1rem $text1;
       color: $first;
+      color: black;
     }
   }
 
@@ -32,10 +35,11 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    // background: no-repeat center/auto url("../assets/1.png");
-    background: no-repeat left url(https://cdn.pixabay.com/photo/2016/06/15/16/16/man-1459246__340.png) ;
+
+    background: no-repeat left
+      url(https://cdn.pixabay.com/photo/2016/06/15/16/16/man-1459246__340.png);
     background-size: 500px;
-    // filter: blur(3px);
+
     border-radius: 0 0 200px 200px;
   }
 }
@@ -43,7 +47,8 @@
 .home2 {
   width: 100%;
   height: 100vh;
-  background-color: $second;
+
+  background-color: rgba(228, 205, 242, 0.438);
   padding: 500px 0;
   display: flex;
   align-items: center;
@@ -66,6 +71,7 @@
 
     p {
       color: $first;
+      color: black;
       letter-spacing: 2px;
       word-spacing: 5px;
       font: 100 1.2rem $text2;
@@ -82,7 +88,8 @@
 .home3 {
   width: 100%;
   height: 120vh;
-  background-color: $second;
+
+  background-color: rgba(228, 205, 242, 0.438);
   margin-top: -200px;
   display: flex;
 
@@ -119,11 +126,14 @@
   width: 100%;
   height: 100vh;
   background-color: $second;
+  background-color: rgba(228, 205, 242, 0.438);
   display: flex;
   justify-content: flex-end;
 
   > div {
     background-color: $third;
+    background-color: rgb(174, 158, 248);
+
     border-radius: 200px 0 0 200px;
     width: 70%;
     height: 70vh;
@@ -135,9 +145,11 @@
 
     > h1 {
       color: $first;
+      color: black;
       text-transform: uppercase;
       width: 140px;
-      border-bottom: 2px solid $first;
+
+      border-bottom: 2px solid black;
       padding: 0.5rem;
     }
 
@@ -147,7 +159,6 @@
       flex-wrap: wrap;
       justify-content: center;
       > div {
-        animation: imgUp 0.7s linear infinite alternate;
         margin: 1rem;
         height: 10rem;
         width: 10rem;
@@ -158,6 +169,7 @@
         align-items: center;
         justify-content: center;
         color: $dark;
+        color: rgb(35, 32, 32);
         cursor: pointer;
         transition: all 0.5s;
         &:hover {
