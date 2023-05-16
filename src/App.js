@@ -23,15 +23,29 @@ function App() {
     //   </Routes>
     //   <Footer />
     // </Router>
+//     <Router>
+//       <Header />
+//       <Routes>
+//         <Route path="" element={<Home />} />
+//         <Route path="/contact" element={<Contact />} />
+//         <Route path="/services" element={<Services />} />
+//       </Routes>
+//       <Footer />
+//     </Router>
+    
+//     Now this below code is from GPT
+    
     <Router>
       <Header />
       <Routes>
-        <Route path="" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
       </Routes>
       <Footer />
     </Router>
+
+
   );
 }
 
